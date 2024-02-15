@@ -39,8 +39,6 @@ router.post("/", async (req, res) => {
     console.log(error)
     res.status(500).json({ success: false, error: "Something went wrong" })
   }
-
-  res.json({ success: true, data: idea })
 })
 
 // Update idea
