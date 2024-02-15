@@ -20,7 +20,7 @@ class IdeaForm {
       !this._form.elements.username.value
     ) {
       alert("Please enter all fields")
-      //   return
+      return
     }
 
     // Save user to local storage
